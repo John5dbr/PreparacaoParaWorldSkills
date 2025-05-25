@@ -147,9 +147,6 @@ footer > aside > a:hover {
 }
 
 @media (max-width: 499px) {
-    #HeaderPrincipal {
-        background: black;
-    }
     #Section1 > article, #Section3 > article {
         width: 80vw;
     }
