@@ -146,7 +146,7 @@ footer > aside > a:hover {
     text-transform: uppercase;
 }
 
-@media (max-width: 150px) {
+@media (max-width: 499px) {
     #HeaderPrincipal {
         background: black;
     }
