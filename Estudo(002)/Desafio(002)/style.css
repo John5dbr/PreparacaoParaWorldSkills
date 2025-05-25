@@ -145,3 +145,12 @@ footer > aside > a {
 footer > aside > a:hover {
     text-transform: uppercase;
 }
+
+@media (max-width: 150px) {
+    #HeaderPrincipal {
+        background: black;
+    }
+    #Section1 > article, #Section3 > article {
+        width: 80vw;
+    }
+}
