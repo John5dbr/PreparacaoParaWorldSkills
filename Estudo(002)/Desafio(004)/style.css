@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor1: #44cdec; 
+    --cor2: #D3C0B3;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+body {
+    background: linear-gradient(to right bottom, var(--cor1), var(--cor2)) no-repeat;
+    padding: 110px 0px 0px 0px;
+}
+
+#HeaderPrincipal {
+    position: fixed;
+    top: 0px;
+    padding: 10px 10px 10px 40%;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+}
+#Logo {
+    position: fixed;
+    background: rgba(0, 0, 0, 0) url('Imagens/download.png') no-repeat left center / contain;
+    left: 15px;
+    width: 25%;
+    height: 75px;
+}
+#HeaderPrincipal > nav {
+    text-align: left;
+    position: fixed;
+    line-height: 75px;
+    right: 10px;
+    width: 60%;
+    height: 75px;
+}
+#HeaderPrincipal > nav > a {
+    padding: 0px 0px 5px 0px;
+    color: white;
+    text-decoration: none;
+    font: normal normal 1.2em 'Raleway', sans-serif;
+    margin: 0px 0px 0px 50px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+#HeaderPrincipal > nav > a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 1px;
+}
+
+/*=============================================*/
+
+main {
+    width: 100%;
+    padding: 45px 0px 0px 10px;
+}
+main > section {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+main > section > h1 {
+    width: 700px;
+    color: white;
+    margin: 0px 0px 10px 5%;
+    font: normal normal 5.75em 'Raleway', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+main > section > article {
+    width: 550px;
+    color: white;
+    margin: 10px 0px 0px 5%;
+    font: normal normal 2.1em 'Raleway', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+main > section > aside {
+    position: absolute;
+    left: 5%;
+    margin: 50px 0px 0px 0px;
+    background: white;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+}
+main > section > aside:hover {
+    border-bottom: 2px solid black;
+}
+main > section > aside > a {
+    color: black;
+    text-decoration: none;
+}
+main > section > figure {
+    position: absolute;
+    bottom: 0px;
+    right: 45px;
+}
+
+/*=============================================*/
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+@media (max-width: 1200px) {
+
+}
