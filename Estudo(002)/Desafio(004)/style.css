@@ -64,25 +64,24 @@ main {
 main > section {
     position: relative;
     width: 100%;
-    min-height: 400px;
+    padding: 0px 0px 45px 0px;
 }
 main > section > h1 {
-    width: 700px;
     color: white;
     margin: 0px 0px 10px 5%;
     font: normal normal 5.75em 'Raleway', sans-serif;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
 }
 main > section > article {
-    width: 550px;
     color: white;
     margin: 10px 0px 0px 5%;
     font: normal normal 2.1em 'Raleway', sans-serif;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
 }
 main > section > aside {
-    position: absolute;
+    position: relative;
     left: 5%;
+    bottom: 0px;
     margin: 50px 0px 0px 0px;
     background: white;
     height: 40px;
@@ -100,6 +99,7 @@ main > section > aside > a {
 }
 main > section > figure {
     position: absolute;
+    transform: translate();
     bottom: 0px;
     right: 45px;
 }
@@ -112,6 +112,6 @@ footer {
     height: 100px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1175px) {
 
 }
