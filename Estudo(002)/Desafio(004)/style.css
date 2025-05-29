@@ -19,6 +19,8 @@
 body {
     background: linear-gradient(to right bottom, var(--cor1), var(--cor2)) no-repeat;
     padding: 110px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
 }
 
 /*=============================================*/
@@ -42,7 +44,7 @@ body {
     height: 75px;
 }
 #HeaderPrincipal > nav {
-    text-align: left;
+    text-align: right;
     position: fixed;
     line-height: 75px;
     right: 10px;
@@ -54,7 +56,7 @@ body {
     color: white;
     text-decoration: none;
     font: normal normal 1.2em 'Raleway', sans-serif;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 20px 0px 40px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
 }
 #HeaderPrincipal > nav > a:hover {
@@ -168,6 +170,7 @@ footer > aside > p:hover {
     }
     #HeaderPrincipal > nav > a {
         font-size: 1.1em;
+        margin: 0px 10px 0px 10px;
     }
 }
 @media (max-width: 800px) {
