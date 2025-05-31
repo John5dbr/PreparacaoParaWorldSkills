@@ -12,7 +12,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: 0px;
 }
 
 body { 
@@ -157,7 +156,7 @@ article > a:hover {
 
 @media (orientation: portrait) {
     body {
-        background: black url('Recursos/FundoPQ.png') no-repeat top center / cover;
+        background: black url('Recursos/FundoPQ.jpg') no-repeat top center / cover;
         background-attachment: fixed;
     }
 }

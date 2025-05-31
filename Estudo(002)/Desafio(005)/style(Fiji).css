@@ -12,13 +12,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: 0px;
 }
 
 body { 
-    background: black url('Recursos/FundoGG.jpg') no-repeat center center / cover;
+    background: white url('Recursos/FundoGG.jpg') no-repeat center center / cover;
     background-attachment: fixed;
-    height: 100%;
+    height: 175vh;
     width: 100%;    
 }
 
@@ -43,7 +42,7 @@ main {
     min-width: 450px;
     max-width: 60vw;
     min-height: 500px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -25%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,7 +59,7 @@ main {
     margin: 0px 0px 20px 0px;
 }
 #Logo {
-    background: rgba(0, 0, 0, 0) url('Recursos/LogoPrr.png') no-repeat center center / cover;
+    background: rgba(0, 0, 0, 0) url('Recursos/Logo.png') no-repeat center center / cover;
     text-align: left;
     width: 42.5%;
     height: 100%;
@@ -226,7 +225,7 @@ article > a:hover {
 
 @media (orientation: portrait) {
     body {
-        background: black url('Recursos/FundoPQ.png') no-repeat top center / cover;
+        background: white url('Recursos/FundoPQ.jpg') no-repeat top center / cover;
         background-attachment: fixed;
     }
 }
