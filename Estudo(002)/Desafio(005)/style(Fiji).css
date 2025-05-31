@@ -44,7 +44,7 @@ main {
     max-width: 60vw;
     min-height: 500px;
     transform: translate(-50%, -50%);
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.411);
@@ -59,8 +59,8 @@ main {
     height: 60px;
     margin: 0px 0px 20px 0px;
 }
-#HeaderPrincipal > figure {
-    background: rgba(0, 0, 0, 0) url('Recursos/Logo.png') no-repeat center center / cover;
+#Logo {
+    background: rgba(0, 0, 0, 0) url('Recursos/LogoPrr.png') no-repeat center center / cover;
     text-align: left;
     width: 42.5%;
     height: 100%;
@@ -92,7 +92,7 @@ main {
 article {
     position: relative;
     width: 100%;
-    height: 375px;
+    height: 175px;
 }
 article > h1 {
     text-align: center;
@@ -111,12 +111,11 @@ article > h2 {
 article > a {
     width: auto;
     text-align: center;
-    background: white;
     color: black;
     text-decoration: none;
     font: normal bold 0.8em 'Montserrat', sans-serif;
     text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.568);
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 article > a:hover {
@@ -125,32 +124,102 @@ article > a:hover {
 #a1 {
     position: absolute;
     top: 120px;
-    left: 25px;
-    background: #8EC5FC;
-}
-#a2 {
-    position: absolute;
-    top: 180px;
-    right: 25px;
+    left: 50%;
+    transform: translateX(-50%);
     background: #3CC9A7;
 }
-#a3 {
+
+/*======================================*/
+
+#Resultado > section > article > h3 {
+    color: white;
+    font: normal bold 1em 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.568);
+    text-align: left;
+    padding: 5px 5px;
+    margin: 0px 10px 0px 0px;
+} 
+#Resultado > section > article > p {
+    color: white;
+    font: normal bold 0.73em 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.568);
+    text-align: left;
+    padding: 5px 5px;
+    margin: 0px 10px 0px 0px;
+} 
+#Resultado > section > article > a {
+    width: 60%;
     position: absolute;
-    top: 240px;
-    left: 25px;
-    background: #3C8D61;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #3CC9A7;
+} 
+#Resultado > section > article > a:hover {
+    border: 1px 1px solid white;
+} 
+#Hotel1 {
+    position: relative;
+    height: 220px;
 }
-#a4 {
+#Hotel1 > article    {
     position: absolute;
-    top: 300px;
-    right: 25px;
-    background: #FF6F61;
+    top: 0px;
+    right: 0px;
+    height: 220px;
+    width: 43%;
 }
-#a5 {
+#FtHotelMaldivas1 {
+    height: 200px;
+    width: 50%;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.534);
+    background: black url('Recursos/Hotel1Fiji.jpg') no-repeat center center / cover;
+    border-radius: 5px;
+    margin: 0px 0px 0px 25px;
+}
+
+/*=======*/
+
+#Hotel2 {
+    position: relative;
+    height: 220px;
+}
+#Hotel2 > article    {
     position: absolute;
-    top: 360px;
-    left: 25px;
-    background: #FFD166
+    top: 0px;
+    right: 0px;
+    height: 220px;
+    width: 43%;
+}
+#FtHotelMaldivas2 {
+    height: 200px;
+    width: 50%;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.534);
+    background: black url('Recursos/Hotel2Fiji.jpg') no-repeat center center / cover;
+    border-radius: 5px;
+    margin: 0px 0px 0px 25px;
+}
+
+/*=======*/
+
+#Hotel3 {
+    position: relative;
+    height: 220px;
+}
+#Hotel3 > article    {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 220px;
+    width: 43%;
+}
+#FtHotelMaldivas3 {
+    height: 200px;
+    width: 50%;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.534);
+    background: black url('Recursos/Hotel3Fiji.jpg') no-repeat center center / cover;
+    border-radius: 5px;
+    margin: 0px 0px 0px 25px;
 }
 
 /*======================================*/
